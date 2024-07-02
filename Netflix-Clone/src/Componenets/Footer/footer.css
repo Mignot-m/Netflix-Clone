@@ -5,7 +5,7 @@
     justify-content: center;
 }
 .inner_footer_container{
-    width: 60%;
+    width: 70%;
 }
 .footer_icons{
     width: 12%;
@@ -13,10 +13,12 @@
     justify-content: space-between;
     margin-left: 20px;
     color: #fff;
+    margin-bottom: 10px;
 }
 .footer_data{
     display: flex;
     justify-content: space-between;
+    
 }
 .footer_data ul{
     list-style: none;
@@ -26,6 +28,7 @@
 }
 .footer_data ul li{
     cursor: pointer;
+    margin-bottom: 10px;
 }
 .service_code {
     display: flex;
