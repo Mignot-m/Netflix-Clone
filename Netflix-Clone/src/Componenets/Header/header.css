@@ -4,42 +4,31 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(20, 20, 20);
-  /* background-color: transparent; */
+  background-color: rgb(20,20,20);
   height: 10vh;
   color: white;
   transition: all 0.5s;
   transition-timing-function: ease-in;
   z-index: 1;
-  /* background-color: red; */
 }
-.nav_black {
-  background-color: rgb(20, 20, 20);
-}
-
 .header_container {
   width: 90%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.header_left ul ,
+.header_left ul,
 .header_right ul {
+  width: 140%;
   display: flex;
   list-style-type: none;
   align-items: center;
   cursor: pointer;
+  justify-content: space-between;
 }
-.header_left ul li,
-.header_right ul li {
-  margin-right: 20px;
-}
-.header_left ul li:last-child,
-.header_right ul li:last-child {
-  margin-right: 0;
-}
+
 .header_left ul li img {
   max-width: 100%;
-  width:80px;
+  width: 80px;
   height: auto;
 }
